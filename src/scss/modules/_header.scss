@@ -1,0 +1,25 @@
+header{
+    background-image: url(../../../public/img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    
+
+    height: 700px;
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        height: 50px;
+        #navbarSupportedContent{
+            max-width: fit-content;   
+        }
+    }
+    div{
+        h4{
+            font-size:200%;
+        }
+        h1{
+            font-size:400%;
+        }
+    }
+}
